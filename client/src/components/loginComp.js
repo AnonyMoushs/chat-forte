@@ -42,7 +42,7 @@ const LoginComponents = () => {
 
   useEffect(() => {
 
-    Axios.get("https://apps-akowp4kqp-anonymoushs.vercel.app/LoggedIn").then((response) => {
+    Axios.get("https://chat-forte-eoa9so6vp-anonymoushs.vercel.app/LoggedIn").then((response) => {
 
     if(response.data.Message === "Authorized") {
       setIsAuthorized(true)
