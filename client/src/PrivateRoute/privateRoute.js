@@ -4,6 +4,8 @@ import Axios from 'axios';
 
 const PrivateRoutes = () => {
 
+  Axios.defaults.withCredentials = true
+
   const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   const data = useRef()
@@ -32,7 +34,7 @@ const PrivateRoutes = () => {
   
   })
 
-  Axios.defaults.withCredentials = true
+  
 
 
   
