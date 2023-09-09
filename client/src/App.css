@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(247,247,255);
+}
+.sign-in-text {
+  font-weight: 500;
+  opacity: 0.5;
+}
+.form-container {
+  background-color: white;
+  border-radius: 8px;
+  
+}
+.form-container label, .form-container input, .form-container button, .form-container div, .form-container span {
+  background-color: white;
+}
+.form-container input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.form-container button {
+  background-color: rgb(114,105,239);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.forgot-link, .signup-link {
+  color: rgb(114,105,239);
+  transition: opacity 0.2s;
+}
+.forgot-link:hover, .signup-link:hover {
+  opacity: 0.5;
+}
