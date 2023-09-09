@@ -22,7 +22,7 @@ const LoginComponents = () => {
   const Submit = (e) => {
     e.preventDefault()
 
-    Axios.post("https://apps-akowp4kqp-anonymoushs.vercel.app/loginUser", loginInfo).then((response) => {
+    Axios.post("https://chat-forte-eoa9so6vp-anonymoushs.vercel.app/loginUser", loginInfo).then((response) => {
 
     console.log(response.data.message)
 
