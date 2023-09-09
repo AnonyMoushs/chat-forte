@@ -17,7 +17,7 @@ const RegisterComponent = () => {
 
   const RegisterUser = () => {
 
-    Axios.post("https://apps-akowp4kqp-anonymoushs.vercel.app/registerUser", RegInfo).then(() => {
+    Axios.post("https://chat-forte-eoa9so6vp-anonymoushs.vercel.app/registerUser", RegInfo).then(() => {
       console.log("Registered")
     }).catch((error) => {
       console.log(error)
