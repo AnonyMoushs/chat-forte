@@ -10,6 +10,8 @@ const LoginComponents = () => {
 
   const Navigate = useNavigate()
 
+    Axios.defaults.withCredentials = true
+
   const loginInfo = {
 
     email_address: emailLogin,
@@ -54,7 +56,7 @@ const LoginComponents = () => {
 
   }, [])
 
-  Axios.defaults.withCredentials = true
+
 
   if (isAuthorized) {
     Navigate("/welcome"); 
