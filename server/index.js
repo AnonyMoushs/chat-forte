@@ -25,7 +25,7 @@ mongoose.connect("mongodb+srv://francesdonz23:password12345@chit-chat.mtvdjuo.mo
 app.use(cors(
 
   {
-    origin: ["https://apps-6396-623a0bn2h-anonymoushs.vercel.app"],
+    origin: ["https://chat-forte-5y6x.vercel.app"],
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true
   }
